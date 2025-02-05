@@ -20,7 +20,7 @@ function SingleProduct() {
     product.attributes;
     const dollarsAmount = formatPrice(price);
 
-    const [productColor, setProductColor] = useState();
+    const [productColor, setProductColor] = useState(colors[0]);
     const [amount, setAmount] = useState();
 
     const handleAmount = (e) => {
